@@ -12,7 +12,7 @@ def login():
     email = request.form['email']
     password = request.form['senha']
 
-    if username == 'mateus' and email == 'mateus@gmail.com' and password == '123':
+    if username == 'maiara' and email == 'maiara@gmail.com'and password == '123':
         return redirect('/servicos')
     else:
         print('unknow user')
